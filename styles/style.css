@@ -74,7 +74,7 @@
   position: absolute;
   z-index: 1;
   opacity: 0.5;
-  font-family: var(--fantasy-font-family);
+  font-family: var(--fantasy-font-family), Arial, sans-serif;
   font-size: 14px;
   text-shadow: -1px 0 var(--label-stroke-color), 0 1px var(--label-stroke-color),
     1px 0 var(--label-stroke-color), 0 -1px var(--label-stroke-color);
@@ -203,7 +203,7 @@
   border: 2px solid var(--stroke-color);
   overflow: hidden;
   color: var(--mix-blend-color);
-  font-family: var(--fantasy-font-family);
+  font-family: var(--fantasy-font-family), Arial, sans-serif;
   font-size: 14px;
   background: transparent;
   transition-property: box-shadow;
@@ -282,7 +282,7 @@
   border: 2px solid var(--stroke-color);
   padding-block-start: 130px;
   padding-block-end: 100px;
-  font-family: var(--fantasy-font-family);
+  font-family: var(--fantasy-font-family), Arial, sans-serif;
   text-align: center;
   background: var(--header-background);
 }
@@ -356,8 +356,8 @@
 .card__text-container {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding: 25px;
+  gap: 26px;
+  padding: 21px 25px 25px 25px;
   font-size: 18px;
   line-height: 21px;
 }
@@ -403,7 +403,7 @@
   border: 2px solid var(--stroke-color);
   padding: 31px;
   color: var(--text-color);
-  font-family: var(--fantasy-font-family);
+  font-family: var(--fantasy-font-family), Arial, sans-serif;
   font-size: 14px;
   background: var(--page-background);
 }
